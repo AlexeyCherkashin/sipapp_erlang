@@ -1,0 +1,15 @@
+{application, sipapp,
+ [{description, "An OTP application"},
+  {vsn, "0.6.0"},
+  {registered, []},
+  {mod, {sipapp_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
